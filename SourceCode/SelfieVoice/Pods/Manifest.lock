@@ -1,0 +1,40 @@
+PODS:
+  - Bolts/Tasks (1.4.0)
+  - Fabric (1.6.0):
+    - Fabric/Base (= 1.6.0)
+  - Fabric/Base (1.6.0)
+  - IQKeyboardManager (3.3.4)
+  - Parse (1.9.1):
+    - Bolts/Tasks (>= 1.4.0)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SVProgressHUD (1.1.3)
+  - TwitterCore (1.13.1):
+    - Fabric
+  - TwitterKit (1.13.1):
+    - TwitterCore (= 1.13.1)
+  - UIView+Shake (1.1.3)
+
+DEPENDENCIES:
+  - Fabric
+  - IQKeyboardManager
+  - Parse
+  - SDWebImage
+  - SVProgressHUD
+  - TwitterCore
+  - TwitterKit
+  - UIView+Shake
+
+SPEC CHECKSUMS:
+  Bolts: 0e9bce58b9b9f5e8a7a4d47b16d2fabec289072b
+  Fabric: d737eda3a26ac940a5430230eedb35f16b226131
+  IQKeyboardManager: ac803e61e5b50efae6b3aeedd95a02c7c7d3b2b3
+  Parse: 54a965c8c19a6dde90284ab654dbcc77ef8c001b
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  TwitterCore: 4f6fbd413f6d574d38bfbeeeb5cd75738caf567e
+  TwitterKit: 77ee49981d79c9663eae3920641addf7c8713b38
+  UIView+Shake: a7ea3fd810a64297cb56b7cbdbd2b0fd5f964a6e
+
+COCOAPODS: 0.39.0

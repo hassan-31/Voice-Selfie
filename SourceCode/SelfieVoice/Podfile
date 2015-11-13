@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+ platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'SelfieVoice' do
+
+pod 'SDWebImage'
+pod 'UIView+Shake'
+pod 'SVProgressHUD'
+pod 'IQKeyboardManager'
+
+pod 'Parse'
+pod 'Fabric'
+pod 'TwitterKit'
+pod 'TwitterCore'
+
+end
+

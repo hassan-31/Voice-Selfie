@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C36F80471BF55CCF000AB707 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C36F80461BF55CCF000AB707 /* SettingsViewController.m */; };
+		C37691011BF514F50050AC10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C37691001BF514F50050AC10 /* main.m */; };
+		C376910C1BF514F50050AC10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C376910B1BF514F50050AC10 /* Assets.xcassets */; };
+		C37691251BF515BD0050AC10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C37691181BF515BD0050AC10 /* AppDelegate.m */; };
+		C37691261BF515BD0050AC10 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C376911D1BF515BD0050AC10 /* Info.plist */; };
+		C37691271BF515BD0050AC10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C376911F1BF515BD0050AC10 /* LaunchScreen.storyboard */; };
+		C37691281BF515BD0050AC10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37691201BF515BD0050AC10 /* Main.storyboard */; };
+		C37691291BF515BD0050AC10 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37691241BF515BD0050AC10 /* WelcomeViewController.m */; };
+		C37691311BF537B60050AC10 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37691301BF537B60050AC10 /* RegisterViewController.m */; };
+		C37691351BF539030050AC10 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37691341BF539030050AC10 /* BaseViewController.m */; };
+		C376913F1BF53B8F0050AC10 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C376913A1BF53B8F0050AC10 /* User.m */; };
+		C37691401BF53B8F0050AC10 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C376913E1BF53B8F0050AC10 /* UserInfo.m */; };
+		C37691471BF53BC00050AC10 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = C37691461BF53BC00050AC10 /* Utility.m */; };
+		C38DB5EC1BF54CCC00372879 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38DB5EA1BF54CCC00372879 /* FBSDKCoreKit.framework */; };
+		C38DB5ED1BF54CCC00372879 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38DB5EB1BF54CCC00372879 /* FBSDKLoginKit.framework */; };
+		C38DB5F11BF559B700372879 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38DB5F01BF559B700372879 /* CameraViewController.m */; };
+		C38DB5F51BF55A6D00372879 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38DB5F41BF55A6D00372879 /* ProfileViewController.m */; };
+		C81065F09E2E57B506EB6F20 /* libPods-SelfieVoice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5023AF8D32936327447C7C0C /* libPods-SelfieVoice.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5023AF8D32936327447C7C0C /* libPods-SelfieVoice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SelfieVoice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9DBA5E49FFF7D879FE6CD2 /* Pods-SelfieVoice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfieVoice.release.xcconfig"; path = "Pods/Target Support Files/Pods-SelfieVoice/Pods-SelfieVoice.release.xcconfig"; sourceTree = "<group>"; };
+		C36F80451BF55CCF000AB707 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		C36F80461BF55CCF000AB707 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		C37690FC1BF514F50050AC10 /* SelfieVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfieVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37691001BF514F50050AC10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C376910B1BF514F50050AC10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C37691171BF515BD0050AC10 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C37691181BF515BD0050AC10 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C376911D1BF515BD0050AC10 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C376911F1BF515BD0050AC10 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C37691201BF515BD0050AC10 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C37691231BF515BD0050AC10 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		C37691241BF515BD0050AC10 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		C376912F1BF537B60050AC10 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		C37691301BF537B60050AC10 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		C37691331BF539030050AC10 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C37691341BF539030050AC10 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C37691391BF53B8F0050AC10 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		C376913A1BF53B8F0050AC10 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		C376913D1BF53B8F0050AC10 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		C376913E1BF53B8F0050AC10 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		C37691431BF53BC00050AC10 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C37691451BF53BC00050AC10 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		C37691461BF53BC00050AC10 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		C38DB5EA1BF54CCC00372879 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		C38DB5EB1BF54CCC00372879 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		C38DB5EF1BF559B700372879 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		C38DB5F01BF559B700372879 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		C38DB5F31BF55A6D00372879 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		C38DB5F41BF55A6D00372879 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		C98124F7B46158B563E02F33 /* Pods-SelfieVoice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfieVoice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelfieVoice/Pods-SelfieVoice.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C37690F91BF514F50050AC10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81065F09E2E57B506EB6F20 /* libPods-SelfieVoice.a in Frameworks */,
+				C38DB5EC1BF54CCC00372879 /* FBSDKCoreKit.framework in Frameworks */,
+				C38DB5ED1BF54CCC00372879 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86C29494BFCB41C20DE720AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C38DB5EA1BF54CCC00372879 /* FBSDKCoreKit.framework */,
+				C38DB5EB1BF54CCC00372879 /* FBSDKLoginKit.framework */,
+				5023AF8D32936327447C7C0C /* libPods-SelfieVoice.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C36F80441BF55CC1000AB707 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C36F80451BF55CCF000AB707 /* SettingsViewController.h */,
+				C36F80461BF55CCF000AB707 /* SettingsViewController.m */,
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		C37690F31BF514F50050AC10 = {
+			isa = PBXGroup;
+			children = (
+				C37690FE1BF514F50050AC10 /* SelfieVoice */,
+				C37690FD1BF514F50050AC10 /* Products */,
+				E396DFA62FFD365BD7EA9789 /* Pods */,
+				86C29494BFCB41C20DE720AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C37690FD1BF514F50050AC10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C37690FC1BF514F50050AC10 /* SelfieVoice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C37690FE1BF514F50050AC10 /* SelfieVoice */ = {
+			isa = PBXGroup;
+			children = (
+				C37691161BF515BD0050AC10 /* AppDelegate */,
+				C376910B1BF514F50050AC10 /* Assets.xcassets */,
+				C37691191BF515BD0050AC10 /* CustomCells */,
+				C376911A1BF515BD0050AC10 /* CustomClasses */,
+				C37691361BF53B8F0050AC10 /* DataLayer */,
+				C37691411BF53BC00050AC10 /* OtherClasses */,
+				C376911B1BF515BD0050AC10 /* Resources */,
+				C37690FF1BF514F50050AC10 /* Supporting Files */,
+				C37691211BF515BD0050AC10 /* ViewControllers */,
+			);
+			path = SelfieVoice;
+			sourceTree = "<group>";
+		};
+		C37690FF1BF514F50050AC10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C37691001BF514F50050AC10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C37691161BF515BD0050AC10 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C37691171BF515BD0050AC10 /* AppDelegate.h */,
+				C37691181BF515BD0050AC10 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C37691191BF515BD0050AC10 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		C376911A1BF515BD0050AC10 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		C376911B1BF515BD0050AC10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C376911C1BF515BD0050AC10 /* PLists */,
+				C376911E1BF515BD0050AC10 /* Storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C376911C1BF515BD0050AC10 /* PLists */ = {
+			isa = PBXGroup;
+			children = (
+				C376911D1BF515BD0050AC10 /* Info.plist */,
+			);
+			path = PLists;
+			sourceTree = "<group>";
+		};
+		C376911E1BF515BD0050AC10 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C376911F1BF515BD0050AC10 /* LaunchScreen.storyboard */,
+				C37691201BF515BD0050AC10 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C37691211BF515BD0050AC10 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C37691321BF539030050AC10 /* BaseViewController */,
+				C38DB5EE1BF559AD00372879 /* CameraViewController */,
+				C38DB5F21BF55A5D00372879 /* ProfileViewController */,
+				C376912E1BF537A70050AC10 /* RegisterViewController */,
+				C36F80441BF55CC1000AB707 /* SettingsViewController */,
+				C37691221BF515BD0050AC10 /* WelcomeViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C37691221BF515BD0050AC10 /* WelcomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C37691231BF515BD0050AC10 /* WelcomeViewController.h */,
+				C37691241BF515BD0050AC10 /* WelcomeViewController.m */,
+			);
+			path = WelcomeViewController;
+			sourceTree = "<group>";
+		};
+		C376912E1BF537A70050AC10 /* RegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C376912F1BF537B60050AC10 /* RegisterViewController.h */,
+				C37691301BF537B60050AC10 /* RegisterViewController.m */,
+			);
+			path = RegisterViewController;
+			sourceTree = "<group>";
+		};
+		C37691321BF539030050AC10 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C37691331BF539030050AC10 /* BaseViewController.h */,
+				C37691341BF539030050AC10 /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		C37691361BF53B8F0050AC10 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C37691371BF53B8F0050AC10 /* ObjectClasses */,
+				C376913B1BF53B8F0050AC10 /* SingletonClasses */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		C37691371BF53B8F0050AC10 /* ObjectClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C37691381BF53B8F0050AC10 /* User */,
+			);
+			path = ObjectClasses;
+			sourceTree = "<group>";
+		};
+		C37691381BF53B8F0050AC10 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				C37691391BF53B8F0050AC10 /* User.h */,
+				C376913A1BF53B8F0050AC10 /* User.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		C376913B1BF53B8F0050AC10 /* SingletonClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C376913C1BF53B8F0050AC10 /* UserInfo */,
+			);
+			path = SingletonClasses;
+			sourceTree = "<group>";
+		};
+		C376913C1BF53B8F0050AC10 /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				C376913D1BF53B8F0050AC10 /* UserInfo.h */,
+				C376913E1BF53B8F0050AC10 /* UserInfo.m */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		C37691411BF53BC00050AC10 /* OtherClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C37691421BF53BC00050AC10 /* Constants */,
+				C37691441BF53BC00050AC10 /* Utility */,
+			);
+			path = OtherClasses;
+			sourceTree = "<group>";
+		};
+		C37691421BF53BC00050AC10 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C37691431BF53BC00050AC10 /* Constants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C37691441BF53BC00050AC10 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C37691451BF53BC00050AC10 /* Utility.h */,
+				C37691461BF53BC00050AC10 /* Utility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C38DB5EE1BF559AD00372879 /* CameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C38DB5EF1BF559B700372879 /* CameraViewController.h */,
+				C38DB5F01BF559B700372879 /* CameraViewController.m */,
+			);
+			path = CameraViewController;
+			sourceTree = "<group>";
+		};
+		C38DB5F21BF55A5D00372879 /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C38DB5F31BF55A6D00372879 /* ProfileViewController.h */,
+				C38DB5F41BF55A6D00372879 /* ProfileViewController.m */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		E396DFA62FFD365BD7EA9789 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C98124F7B46158B563E02F33 /* Pods-SelfieVoice.debug.xcconfig */,
+				9D9DBA5E49FFF7D879FE6CD2 /* Pods-SelfieVoice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C37690FB1BF514F50050AC10 /* SelfieVoice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37691131BF514F50050AC10 /* Build configuration list for PBXNativeTarget "SelfieVoice" */;
+			buildPhases = (
+				3484530294E1CD20E2C758CB /* Check Pods Manifest.lock */,
+				C37690F81BF514F50050AC10 /* Sources */,
+				C37690F91BF514F50050AC10 /* Frameworks */,
+				C37690FA1BF514F50050AC10 /* Resources */,
+				89999B99AC5C9958E0656BDF /* Embed Pods Frameworks */,
+				1554AD970A5BED1DA74D0696 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfieVoice;
+			productName = SelfieVoice;
+			productReference = C37690FC1BF514F50050AC10 /* SelfieVoice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C37690F41BF514F50050AC10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Hassan;
+				TargetAttributes = {
+					C37690FB1BF514F50050AC10 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = C37690F71BF514F50050AC10 /* Build configuration list for PBXProject "SelfieVoice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C37690F31BF514F50050AC10;
+			productRefGroup = C37690FD1BF514F50050AC10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C37690FB1BF514F50050AC10 /* SelfieVoice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C37690FA1BF514F50050AC10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37691271BF515BD0050AC10 /* LaunchScreen.storyboard in Resources */,
+				C37691261BF515BD0050AC10 /* Info.plist in Resources */,
+				C376910C1BF514F50050AC10 /* Assets.xcassets in Resources */,
+				C37691281BF515BD0050AC10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1554AD970A5BED1DA74D0696 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SelfieVoice/Pods-SelfieVoice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3484530294E1CD20E2C758CB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89999B99AC5C9958E0656BDF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SelfieVoice/Pods-SelfieVoice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C37690F81BF514F50050AC10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37691471BF53BC00050AC10 /* Utility.m in Sources */,
+				C37691291BF515BD0050AC10 /* WelcomeViewController.m in Sources */,
+				C37691351BF539030050AC10 /* BaseViewController.m in Sources */,
+				C376913F1BF53B8F0050AC10 /* User.m in Sources */,
+				C38DB5F51BF55A6D00372879 /* ProfileViewController.m in Sources */,
+				C37691251BF515BD0050AC10 /* AppDelegate.m in Sources */,
+				C37691011BF514F50050AC10 /* main.m in Sources */,
+				C38DB5F11BF559B700372879 /* CameraViewController.m in Sources */,
+				C36F80471BF55CCF000AB707 /* SettingsViewController.m in Sources */,
+				C37691311BF537B60050AC10 /* RegisterViewController.m in Sources */,
+				C37691401BF53B8F0050AC10 /* UserInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C37691111BF514F50050AC10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C37691121BF514F50050AC10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C37691141BF514F50050AC10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C98124F7B46158B563E02F33 /* Pods-SelfieVoice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: mike walton (MYYBY92S2A)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SelfieVoice/Resources/PLists/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassan.selfivoice.SelfieVoice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ac002fe4-1b64-4137-b298-ed94ebd30657";
+			};
+			name = Debug;
+		};
+		C37691151BF514F50050AC10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D9DBA5E49FFF7D879FE6CD2 /* Pods-SelfieVoice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: mike walton (MYYBY92S2A)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SelfieVoice/Resources/PLists/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hassan.selfivoice.SelfieVoice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ac002fe4-1b64-4137-b298-ed94ebd30657";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C37690F71BF514F50050AC10 /* Build configuration list for PBXProject "SelfieVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37691111BF514F50050AC10 /* Debug */,
+				C37691121BF514F50050AC10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C37691131BF514F50050AC10 /* Build configuration list for PBXNativeTarget "SelfieVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37691141BF514F50050AC10 /* Debug */,
+				C37691151BF514F50050AC10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C37690F41BF514F50050AC10 /* Project object */;
+}
